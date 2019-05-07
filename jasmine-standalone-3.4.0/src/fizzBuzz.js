@@ -1,5 +1,11 @@
 var Javabuzz = function () {};
 
+Javabuzz.prototype.says = function(number) {
+  if (this.isDivisibleByThree(number)) {
+      return 'fizz'
+  }
+};
+
 Javabuzz.prototype.isDivisibleByThree = function(number) {
     return (this._isDivisibleBy(number, 3));
 };
