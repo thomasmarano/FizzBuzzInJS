@@ -1,6 +1,9 @@
 var Javabuzz = function () {};
 
 Javabuzz.prototype.says = function(number) {
+  if (this.isDivisibleByFiveAndThree(number)) {
+      return 'fizzbuzz'
+  }
   if (this.isDivisibleByThree(number)) {
       return 'fizz'
   }

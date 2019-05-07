@@ -45,9 +45,9 @@ describe('Javabuzz', function(){
             expect(javabuzz.says(5)).toEqual('buzz')
         });
         //
-        // describe('fizzbuzz', function() {
-        //
-        // });
+        it('fizzbuzz', function() {
+            expect(javabuzz.says(15)).toEqual('fizzbuzz')
+        });
         //
         // describe('your number', function() {
         //
