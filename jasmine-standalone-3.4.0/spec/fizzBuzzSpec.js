@@ -34,4 +34,23 @@ describe('Javabuzz', function(){
             expect(javabuzz.isDivisibleByFiveAndThree(4)).toBe(false)
         });
     });
+
+    describe('when playing, says', function() {
+
+        it('fizz', function() {
+            expect(javabuzz.says(3)).toEqual('fizz')
+        });
+
+        // describe('buzz', function() {
+        //
+        // });
+        //
+        // describe('fizzbuzz', function() {
+        //
+        // });
+        //
+        // describe('your number', function() {
+        //
+        // });
+    });
 });
