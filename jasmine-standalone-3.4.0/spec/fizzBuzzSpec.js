@@ -15,9 +15,9 @@ describe('Javabuzz', function(){
             expect(javabuzz.isDivisibleByFive(5)).toBe(true)
         });
 
-        // it('divisible by 3 and 5', function() {
-        //
-        // });
+        it('divisible by 3 and 5', function() {
+            expect(javabuzz.isDivisibleByFiveAndThree(15)).toBe(true)
+        });
     });
 
     describe('know when a number is NOT', function() {
@@ -30,8 +30,8 @@ describe('Javabuzz', function(){
             expect(javabuzz.isDivisibleByFive(2)).toBe(false)
         });
 
-        // it('divisible by 3 and 5', function() {
-        //
-        // });
+        it('divisible by 3 and 5', function() {
+            expect(javabuzz.isDivisibleByFiveAndThree(4)).toBe(false)
+        });
     });
 });
